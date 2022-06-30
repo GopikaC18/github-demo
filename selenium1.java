@@ -18,6 +18,7 @@ public class selenium1 {
      String pri=price1.getText();
      WebElement price2=driver.findElement(By.xpath("//span[@class='a-price-symbol']"));
      String prinext=price1.getText();
+     System.out.println("Compare the prices of refrigerator in two tabs");
      if(prinext.equals(pri))
      {
     	 System.out.println("Same price");
