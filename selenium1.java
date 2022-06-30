@@ -26,6 +26,7 @@ public class selenium1 {
      {
     	 System.out.println("Not same");
      }
+     System.out.println("Weight of the item");
      WebElement weight=driver.findElement(By.xpath("(//span[@class='a-size-base a-color-base'])[79]"));
      System.out.println(weight.getText());
      
